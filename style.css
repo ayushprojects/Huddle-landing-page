@@ -2,7 +2,9 @@ body{
 
     background-image: url("images/bg-desktop.svg");
     background-color:  hsl(257, 40%, 49%);
-    
+  
+
+
 
 }
 .main{
@@ -20,12 +22,11 @@ body{
     margin-bottom:-5rem;
     margin-left: 10rem;
 }
-.left{
-   
-}
+
 .right{
     width: 25rem;
     padding-top: 3rem;
+    font-family: 'Poppins', sans-serif;
 }
 .right h1{
     line-height: 3rem;
@@ -49,4 +50,15 @@ body{
     background-color: blueviolet;
     color: white;
     transition: 2s;
+}
+
+.img{
+    margin-left: 11rem;
+}
+.bottom{
+    display: flex;
+    justify-content: right;
+    gap: 4rem;
+    margin-right: 4rem;
+    cursor: pointer;
 }
