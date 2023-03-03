@@ -1,0 +1,52 @@
+body{
+
+    background-image: url("images/bg-desktop.svg");
+    background-color:  hsl(257, 40%, 49%);
+    
+
+}
+.main{
+    display: flex;
+   gap: 4rem;
+   margin: auto;
+   justify-content: center;
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+  margin-top: 7rem;
+ 
+    
+}
+.img{
+    margin-bottom:-5rem;
+    margin-left: 10rem;
+}
+.left{
+   
+}
+.right{
+    width: 25rem;
+    padding-top: 3rem;
+}
+.right h1{
+    line-height: 3rem;
+}
+.right p{
+    color: rgb(172, 172, 172);
+   text-align: start;
+   line-height: 1.3rem;
+}
+#btn{
+  width: 10rem;
+  height: 2.7rem;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 15px;
+  color: hsl(257, 40%, 49%);
+  box-shadow: 10px 10px 20px rgb(75, 73, 73);
+  cursor: pointer;
+}
+#btn:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 2s;
+}
